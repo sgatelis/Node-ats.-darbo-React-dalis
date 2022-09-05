@@ -1,0 +1,129 @@
+* {
+  background: yellow;
+  font-size: 20px;
+}
+
+.App {
+  
+  width: 900px;
+  height: 100vh;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.d-flex  {
+  display: flex;
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.grow1 {
+  flex: 1
+}
+
+.grow3 {
+  flex: 3
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+.w500 {
+  width: 500px;
+}
+
+button {
+  margin: 10px;
+  padding: 7px;
+  width: 100px;
+  box-shadow: 3px 3px rgb(147, 198, 198);
+  border: 2px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input {
+  width: 200px;
+  margin: 30px;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(147, 198, 198);
+  border: 2px solid gray;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px whitesmoke;
+  cursor: pointer;
+}
+
+.movies {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.singleMovie {
+  margin: 100px 0;
+}
+
+.toolbar {
+  margin: 50px;
+  font-size: 1.2em;  
+}
+
+.toolbar div {
+  margin: 0 50px;
+}
+
+.hall {
+  /* background: white;   */
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  
+}
+
+.reservation {
+  display: flex;
+  flex-wrap: wrap;
+}
